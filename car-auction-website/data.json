@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password1",
+      "email": "user1@example.com"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "password2",
+      "email": "user2@example.com"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "type": "SUV",
+      "make": "Toyota",
+      "model": "RAV4",
+      "year": 2020,
+      "price": 25000,
+      "bids": [
+        {
+          "userId": 1,
+          "bidAmount": 25500
+        },
+        {
+          "userId": 2,
+          "bidAmount": 26000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Sedan",
+      "make": "Honda",
+      "model": "Accord",
+      "year": 2019,
+      "price": 20000,
+      "bids": [
+        {
+          "userId": 1,
+          "bidAmount": 20500
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Hatchback",
+      "make": "Ford",
+      "model": "Focus",
+      "year": 2018,
+      "price": 15000,
+      "bids": []
+    }
+  ]
